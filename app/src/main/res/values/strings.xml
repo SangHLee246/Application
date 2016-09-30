@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Amie</string>
+    <string name="startup">Startup</string>
+    <string name="consultant">Consultant</string>
+
+    <string name="edit_name">Name</string>
+    <string name="edit_DoB">Date of Birth</string>
+    <string name="edit_Gender">Gender</string>
+    <string name="edit_EmailAddress">Email Address</string>
+    <string name="button_send">Send</string>
 </resources>
