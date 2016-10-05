@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="@string/startup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/startup"
+        android:layout_weight="0.03" />
+
+    <EditText android:id="@+id/startup_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/startup_name" />
+
+    <EditText android:id="@+id/startup_mission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/startup_mission" />
+
+    <EditText android:id="@+id/established"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/established" />
+
+    <EditText android:id="@+id/position_role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/position_role" />
+
+    <EditText android:id="@+id/picture_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/picture_upload" />
+
+    <EditText android:id="@+id/student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/student" />
+
+    <EditText android:id="@+id/university_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/university_class" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"
+        android:onClick="startupidentity"/>
+</LinearLayout>

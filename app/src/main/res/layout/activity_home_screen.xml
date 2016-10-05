@@ -27,6 +27,7 @@
         android:text="@string/consultant"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/consultant" />
+        android:id="@+id/consultant"
+        android:onClick="consultant"/>
 
 </LinearLayout>

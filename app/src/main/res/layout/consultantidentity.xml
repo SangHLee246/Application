@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="@string/consultant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/consultant"
+        android:layout_weight="0.03" />
+
+    <EditText android:id="@+id/field_dropdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/field_dropdown" />
+
+    <EditText android:id="@+id/expertise_dropdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/expertise_dropdown" />
+
+    <EditText android:id="@+id/years_of_experience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/years_of_experience" />
+
+    <EditText android:id="@+id/job_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/job_title" />
+
+    <EditText android:id="@+id/job_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/job_title" />
+
+    <EditText android:id="@+id/company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/company" />
+
+    <EditText android:id="@+id/alma_matta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/alma_matta" />
+
+    <EditText android:id="@+id/biography"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/biography" />
+
+    <EditText android:id="@+id/consultant_picture_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/consultant_picture_upload" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"
+        android:onClick="startupidentity"/>
+</LinearLayout>

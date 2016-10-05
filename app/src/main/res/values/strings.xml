@@ -8,4 +8,21 @@
     <string name="edit_Gender">Gender</string>
     <string name="edit_EmailAddress">Email Address</string>
     <string name="button_send">Send</string>
+
+    <string name="startup_name">Startup Name</string>
+    <string name="startup_mission">Mission</string>
+    <string name="established">Date of Establishment</string>
+    <string name="position_role">Position/Role</string>
+    <string name="picture_upload">Picture Upload</string>
+    <string name="student">Student</string>
+    <string name="university_class">University Class</string>
+
+    <string name="field_dropdown">Choose a Category</string>
+    <string name="expertise_dropdown">Choose an Expertise</string>
+    <string name="years_of_experience">Years of Experience</string>
+    <string name="job_title">Current Job Title</string>
+    <string name="company">Company (Optional)</string>
+    <string name="alma_matta">Alma Matta</string>
+    <string name="biography">Brief Biography (140 Characters)</string>
+    <string name="consultant_picture_upload">Picture Upload</string>
 </resources>

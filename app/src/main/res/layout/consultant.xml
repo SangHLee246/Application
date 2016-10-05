@@ -6,10 +6,10 @@
     android:weightSum="1">
 
     <TextView
-        android:text="@string/startup"
+        android:text="@string/consultant"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/startup"
+        android:id="@+id/consultant"
         android:layout_weight="0.03" />
 
     <EditText android:id="@+id/edit_name"
@@ -36,6 +36,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_send"
-        android:onClick="startupsignup"/>
+        android:onClick="consultantidentity"/>
 </LinearLayout>
 

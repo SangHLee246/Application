@@ -22,6 +22,21 @@ public class HomeScreen extends AppCompatActivity {
 
     public void startupsignup(View view) {
         //Do something in response to button
+        setContentView(R.layout.startupidentity);
+    }
+
+    public void startupidentity(View view) {
+        //Do something in response to button
         setContentView(R.layout.searchpreferences);
+    }
+
+    public void consultant(View view) {
+        //Do something in response to button
+        setContentView(R.layout.consultant);
+    }
+
+    public void consultantidentity(View view) {
+        //Do something in response to button
+        setContentView(R.layout.consultantidentity);
     }
 }
