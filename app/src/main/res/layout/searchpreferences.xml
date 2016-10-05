@@ -3,4 +3,34 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:text="@string/search_preferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_preferences"
+        android:layout_weight="0.00"/>
+
+    <TextView
+        android:text="@string/interest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/interest"
+        android:layout_weight="0.00"/>
+
+    <EditText android:id="@+id/three_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/three_options" />
+
+    <TextView
+        android:text="@string/notify_me_when"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/notify_me_when"
+        android:layout_weight="0.00"/>
+
+    <EditText android:id="@+id/categories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/categories" />
 </LinearLayout>

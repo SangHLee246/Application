@@ -25,4 +25,10 @@
     <string name="alma_matta">Alma Matta</string>
     <string name="biography">Brief Biography (140 Characters)</string>
     <string name="consultant_picture_upload">Picture Upload</string>
+
+    <string name="search_preferences">Search Preferences</string>
+    <string name="interest">Interested in:</string>
+    <string name="three_options">Startup/Consultant/Both</string>
+    <string name="notify_me_when">Notify Me When:</string>
+    <string name="categories">Select Categories:</string>
 </resources>
