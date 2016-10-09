@@ -43,7 +43,8 @@ public abstract class SwipeDeckAdapter extends BaseAdapter {
 
         View v = convertView;
         if (v == null) {
-            LayoutInflater inflater = context.getLayoutInflater();
+        //    LayoutInflater inflater = context.getLayoutInflater();
+            LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             // normally use a viewholder
           //  v = inflater.inflate(R.layout.test_card2, parent, false);
         }
