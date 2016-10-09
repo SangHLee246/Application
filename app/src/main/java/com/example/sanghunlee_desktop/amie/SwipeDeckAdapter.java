@@ -13,7 +13,7 @@ import com.squareup.picasso.Picasso;
 
 import android.widget.EditText;
 
-public abstract class SwipeDeckAdapter extends BaseAdapter {
+public class SwipeDeckAdapter extends BaseAdapter {
 
     private List<String> data;
     private Context context;
