@@ -1,7 +1,0 @@
-#Thu Oct 06 21:22:14 EDT 2016
-base.0=C\:\\Users\\Chris\\Documents\\GitHub\\WiggleWamalBillyBally\\WiggleWamalBillyBally\\swipecards\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_9dc573740b6ee640c001ca1f1b83791817f50d37
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Chris\\Documents\\GitHub\\WiggleWamalBillyBally\\WiggleWamalBillyBally\\swipecards\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_f2e3dd54d113e6198a4299cdfff2d91a9a714c31\\classes.dex
-base.1=C\:\\Users\\Chris\\Documents\\GitHub\\WiggleWamalBillyBally\\WiggleWamalBillyBally\\swipecards\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_f2e3dd54d113e6198a4299cdfff2d91a9a714c31
-file.0=C\:\\Users\\Chris\\Documents\\GitHub\\WiggleWamalBillyBally\\WiggleWamalBillyBally\\swipecards\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_9dc573740b6ee640c001ca1f1b83791817f50d37\\classes.dex
