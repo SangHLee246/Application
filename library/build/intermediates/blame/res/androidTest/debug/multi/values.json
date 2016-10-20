@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Chris\\Documents\\GitHub\\WiggleWamalBillyBally\\WiggleWamalBillyBally\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\SangHunLee-Desktop\\AndroidStudioProjects\\Amie\\WiggleWamalBillyBally\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 365
                 },
                 "from": {
-                    "file": "C:\\Users\\Chris\\Documents\\GitHub\\WiggleWamalBillyBally\\WiggleWamalBillyBally\\library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "C:\\Users\\SangHunLee-Desktop\\AndroidStudioProjects\\Amie\\WiggleWamalBillyBally\\library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -31,7 +31,7 @@
                     "endOffset": 546
                 },
                 "from": {
-                    "file": "C:\\Users\\Chris\\Documents\\GitHub\\WiggleWamalBillyBally\\WiggleWamalBillyBally\\library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "C:\\Users\\SangHunLee-Desktop\\AndroidStudioProjects\\Amie\\WiggleWamalBillyBally\\library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
