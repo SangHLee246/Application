@@ -18,7 +18,7 @@ public class HomeScreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_screen);
+        setContentView(R.layout.initialscreen);
     }
 
     public void startup(View view) {
@@ -46,6 +46,14 @@ public class HomeScreen extends AppCompatActivity {
         setContentView(R.layout.consultantidentity);
     }
 
+    public void register(View view) {
+        //Do something in response to button
+        setContentView(R.layout.activity_home_screen);
+    }
+
+    public void forgot_password() {
+        //Do something in response to button
+    }
 }
 /*
 public class SwipeDeckAdapter extends BaseAdapter {
