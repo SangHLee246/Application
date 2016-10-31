@@ -41,7 +41,8 @@
             app:srcCompat="?android:attr/actionModeFindDrawable"
             android:id="@+id/imageButton6"
             android:layout_row="1"
-            android:layout_column="4" />
+            android:layout_column="4"
+            android:onClick="search_preferences"/>
 
         <ImageButton
             android:layout_width="120dp"

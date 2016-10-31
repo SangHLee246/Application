@@ -42,4 +42,6 @@
     <string name="recover_password">Recover Password</string>
 
     <string name="begin_scouting">Begin Scouting</string>
+
+    <string name="confirm_changes">Confirm Changes</string>
 </resources>

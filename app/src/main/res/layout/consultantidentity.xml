@@ -31,11 +31,6 @@
         android:layout_height="wrap_content"
         android:hint="@string/job_title" />
 
-    <EditText android:id="@+id/job_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/job_title" />
-
     <EditText android:id="@+id/company"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

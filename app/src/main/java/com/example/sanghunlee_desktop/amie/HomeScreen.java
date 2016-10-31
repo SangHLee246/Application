@@ -51,8 +51,21 @@ public class HomeScreen extends AppCompatActivity {
         setContentView(R.layout.activity_home_screen);
     }
 
-    public void forgot_password() {
+    public void login(View view) {
         //Do something in response to button
+        setContentView(R.layout.login);
+    }
+    public void forgot_password() {
+        //Show Modal Explaining that the password will be sent to email
+        return;
+    }
+
+    public void main_menu(View view){
+        setContentView(R.layout.menuscreen);
+    }
+
+    public void search_preferences(View view){
+        setContentView(R.layout.searchpreferences);
     }
 }
 /*
