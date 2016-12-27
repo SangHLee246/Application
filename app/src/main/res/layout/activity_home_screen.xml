@@ -5,7 +5,8 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:baselineAligned="false"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#8F5CFF">
 
     <Space
         android:layout_width="match_parent"
@@ -17,7 +18,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/startup"
         android:elevation="0dp"
-        android:onClick="startup"/>
+        android:onClick="startup" />
 
     <Space
         android:layout_width="match_parent"
