@@ -12,6 +12,16 @@
         android:id="@+id/consultant"
         android:layout_weight="0.03" />
 
+    <EditText android:id="@+id/edit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_name" />
+
+    <EditText android:id="@+id/edit_EmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_EmailAddress" />
+    
     <EditText android:id="@+id/field_dropdown"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,15 +37,15 @@
         android:layout_height="wrap_content"
         android:hint="@string/years_of_experience" />
 
-    <EditText android:id="@+id/job_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/job_title" />
-
     <EditText android:id="@+id/company"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/company" />
+
+    <EditText android:id="@+id/job_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/job_title" />
 
     <EditText android:id="@+id/alma_matta"
         android:layout_width="wrap_content"
@@ -47,10 +57,10 @@
         android:layout_height="wrap_content"
         android:hint="@string/biography" />
 
-    <EditText android:id="@+id/consultant_picture_upload"
+    <EditText android:id="@+id/picture_upload"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/consultant_picture_upload" />
+        android:hint="@string/picture_upload" />
 
     <Button
         android:layout_width="wrap_content"

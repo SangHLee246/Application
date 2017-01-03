@@ -1,36 +1,34 @@
 <resources>
     <string name="app_name">Amie</string>
-    <string name="startup">Startup</string>
-    <string name="consultant">Consultant</string>
+    <string name="startup">Team</string>
+    <string name="consultant">Coach</string>
+    <string name="free_agent">Free Agent</string>
 
     <string name="edit_name">Name</string>
-    <string name="edit_DoB">Date of Birth</string>
-    <string name="edit_Gender">Gender</string>
     <string name="edit_EmailAddress">Email Address</string>
     <string name="button_send">Send</string>
 
-    <string name="startup_name">Startup Name</string>
-    <string name="startup_mission">Mission</string>
+    <string name="startup_name">Venture Name</string>
+    <string name="startup_mission">Elevator Pitch</string>
     <string name="established">Date of Establishment</string>
-    <string name="position_role">Position/Role</string>
-    <string name="picture_upload">Picture Upload</string>
-    <string name="student">Student</string>
-    <string name="university_class">University Class</string>
+    <string name="position_role">Point of Contact</string>
+    <string name="picture_upload">Upload Image</string>
+    <string name="student">Hyperlink URL</string>
+    <string name="university_class">University/College</string>
 
-    <string name="field_dropdown">Choose a Category</string>
-    <string name="expertise_dropdown">Choose an Expertise</string>
-    <string name="years_of_experience">Years of Experience</string>
-    <string name="job_title">Current Job Title</string>
+    <string name="field_dropdown">Category</string>
+    <string name="expertise_dropdown">Area of Expertise</string>
+    <string name="years_of_experience">Experience</string>
+    <string name="job_title">Current Position (Optional)</string>
     <string name="company">Company (Optional)</string>
     <string name="alma_matta">Alma Matta</string>
     <string name="biography">Brief Biography (140 Characters)</string>
-    <string name="consultant_picture_upload">Picture Upload</string>
 
     <string name="search_preferences">Search Preferences</string>
     <string name="interest">Interested in:</string>
-    <string name="three_options">Startup/Consultant/Both</string>
-    <string name="notify_me_when">Notify Me When:</string>
-    <string name="categories">Select Categories:</string>
+    <string name="three_options">Team/Free Agent/Coach/All</string>
+    <string name="notify_me_when">Only Notify Me When Matched</string>
+    <string name="categories">Area of Expertise</string>
     <string name="title_activity_swipe_to_choose">SwipeToChoose</string>
 
     <string name="login">Login</string>

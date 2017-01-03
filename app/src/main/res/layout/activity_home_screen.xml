@@ -14,11 +14,23 @@
 
     <Button
         android:text="@string/startup"
-        android:layout_width="395dp"
+        android:layout_width="383dp"
         android:layout_height="wrap_content"
         android:id="@+id/startup"
         android:elevation="0dp"
-        android:onClick="startup" />
+        android:onClick="startupsignup" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:text="@string/free_agent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/free_agent"
+        android:elevation="0dp"
+        android:onClick="consultantidentity" />
 
     <Space
         android:layout_width="match_parent"
@@ -29,6 +41,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/consultant"
-        android:onClick="consultant"/>
+        android:onClick="consultantidentity"/>
 
 </LinearLayout>

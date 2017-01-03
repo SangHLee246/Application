@@ -30,10 +30,10 @@
         android:id="@+id/notify_me_when"
         android:layout_weight="0.00"/>
 
-    <EditText android:id="@+id/categories"
+    <EditText android:id="@+id/field_dropdown"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/categories" />
+        android:hint="@string/field_dropdown" />
 
     <Button
         android:text="@string/confirm_changes"
