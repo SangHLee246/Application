@@ -26,11 +26,6 @@ public class HomeScreen extends AppCompatActivity {
         setContentView(R.layout.startupidentity);
     }
 
-    public void startupidentity(View view) {
-        //Do something in response to button
-        setContentView(R.layout.searchpreferences);
-    }
-
     public void consultantidentity(View view) {
         //Do something in response to button
         setContentView(R.layout.consultantidentity);
@@ -45,9 +40,10 @@ public class HomeScreen extends AppCompatActivity {
         //Do something in response to button
         setContentView(R.layout.login);
     }
-    public void forgot_password() {
-        //Show Modal Explaining that the password will be sent to email
-        return;
+
+    public void free_agent(View view) {
+        //Do something in response to button
+        setContentView(R.layout.free_agent);
     }
 
     public void main_menu(View view){

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Amie</string>
+    <string name="app_name">Biznet</string>
     <string name="startup">Team</string>
     <string name="consultant">Coach</string>
     <string name="free_agent">Free Agent</string>
@@ -30,6 +30,12 @@
     <string name="notify_me_when">Only Notify Me When Matched</string>
     <string name="categories">Area of Expertise</string>
     <string name="title_activity_swipe_to_choose">SwipeToChoose</string>
+    <string name="student_status">Undergrad/Graduate/Alumni</string>
+    <string name="major">Major(s)</string>
+    <string name="minor">Minor(s)</string>
+    <string name="skills">Skills</string>
+    <string name="interests">Interests</string>
+    <string name="about_me">About Me (140 Characters)</string>
 
     <string name="login">Login</string>
     <string name="register">Register</string>
