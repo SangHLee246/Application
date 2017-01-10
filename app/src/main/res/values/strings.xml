@@ -1,51 +1,51 @@
 <resources>
     <string name="app_name">Biznet</string>
-    <string name="startup">Team</string>
-    <string name="consultant">Coach</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+
+    <string name="team">Team</string>
     <string name="free_agent">Free Agent</string>
+    <string name="coach">Coach</string>
 
-    <string name="edit_name">Name</string>
-    <string name="edit_EmailAddress">Email Address</string>
-    <string name="button_send">Send</string>
-
-    <string name="startup_name">Venture Name</string>
-    <string name="startup_mission">Elevator Pitch</string>
-    <string name="established">Date of Establishment</string>
-    <string name="position_role">Point of Contact</string>
-    <string name="picture_upload">Upload Image</string>
-    <string name="student">Hyperlink URL</string>
-    <string name="university_class">University/College</string>
-
-    <string name="field_dropdown">Category</string>
-    <string name="expertise_dropdown">Area of Expertise</string>
-    <string name="years_of_experience">Experience</string>
-    <string name="job_title">Current Position (Optional)</string>
-    <string name="company">Company (Optional)</string>
-    <string name="alma_matta">Alma Matta</string>
-    <string name="biography">Brief Biography (140 Characters)</string>
+    <string name="venture_name">Venture Name</string>
+    <string name="elevator_pitch">Elevator Pitch</string>
+    <string name="date_of_establishment">Date of Establishment</string>
+    <string name="point_of_contact">Point of Contact</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="hyperlink_url">Hyperlink URL</string>
+    <string name="university_college">University/College</string>
+    <string name="send">Send</string>
 
     <string name="search_preferences">Search Preferences</string>
-    <string name="interest">Interested in:</string>
-    <string name="three_options">Team/Free Agent/Coach/All</string>
-    <string name="notify_me_when">Only Notify Me When Matched</string>
-    <string name="categories">Area of Expertise</string>
-    <string name="title_activity_swipe_to_choose">SwipeToChoose</string>
-    <string name="student_status">Undergrad/Graduate/Alumni</string>
+    <string name="interested_in">Interested in:</string>
+    <string name="team_free_agent_coach_all">Team/Free Agent/Coach/All</string>
+    <string name="only_notify_me_when_matched">Only Notify Me When Matched</string>
+    <string name="category">Category</string>
+    <string name="confirm_changes">Confirm Changes</string>
+
     <string name="major">Major(s)</string>
     <string name="minor">Minor(s)</string>
     <string name="skills">Skills</string>
     <string name="interests">Interests</string>
     <string name="about_me">About Me (140 Characters)</string>
 
-    <string name="login">Login</string>
-    <string name="register">Register</string>
-
-    <string name="password">Password</string>
-    <string name="forgot_password">Forgot Password?</string>
-
-    <string name="recover_password">Recover Password</string>
+    <string name="name">Name</string>
+    <string name="area_of_expertise">Area of Expertise</string>
+    <string name="experience">Experience</string>
+    <string name="undergrad_graduate_alumni">Undergrad/Graduate/Alumni</string>
+    <string name="expertise_dropdown">Area of Expertise</string>
+    <string name="company">Company (Optional)</string>
+    <string name="current_position">Current Position (Optional)</string>
+    <string name="alma_matta">Alma Matta</string>
+    <string name="biography">Brief Biography (140 Characters)</string>
 
     <string name="begin_scouting">Begin Scouting</string>
+    <string name="company_logo">Company Logo</string>
 
-    <string name="confirm_changes">Confirm Changes</string>
+    <string name="title_activity_swipe_to_choose">SwipeToChoose</string>
 </resources>

@@ -1,16 +1,8 @@
 package com.example.sanghunlee_desktop.amie;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.*;
-import android.util.*;
-import java.util.*;
-import com.squareup.picasso.Picasso;
-import android.widget.*;
-import android.content.Context;
-
-import android.widget.EditText;
 
 
 public class HomeScreen extends AppCompatActivity {
@@ -18,22 +10,7 @@ public class HomeScreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.initialscreen);
-    }
-
-    public void startupsignup(View view) {
-        //Do something in response to button
-        setContentView(R.layout.startupidentity);
-    }
-
-    public void consultantidentity(View view) {
-        //Do something in response to button
-        setContentView(R.layout.consultantidentity);
-    }
-
-    public void register(View view) {
-        //Do something in response to button
-        setContentView(R.layout.activity_home_screen);
+        setContentView(R.layout.initial_screen);
     }
 
     public void login(View view) {
@@ -41,18 +18,34 @@ public class HomeScreen extends AppCompatActivity {
         setContentView(R.layout.login);
     }
 
-    public void free_agent(View view) {
+    public void register(View view) {
+        //Do something in response to button
+        setContentView(R.layout.register);
+    }
+
+    public void team_sign_up(View view) {
+        //Do something in response to button
+        setContentView(R.layout.team);
+    }
+
+    public void free_agent_sign_up(View view) {
         //Do something in response to button
         setContentView(R.layout.free_agent);
     }
 
-    public void main_menu(View view){
-        setContentView(R.layout.menuscreen);
+    public void coach_sign_up(View view) {
+        //Do something in response to button
+        setContentView(R.layout.coach);
     }
 
     public void search_preferences(View view){
         setContentView(R.layout.searchpreferences);
     }
+
+    public void main_menu(View view){
+        setContentView(R.layout.main_menu);
+    }
+
 }
 /*
 public class SwipeDeckAdapter extends BaseAdapter {

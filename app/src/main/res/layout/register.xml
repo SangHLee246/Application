@@ -7,12 +7,12 @@
     android:background="#8F5CFF">
 
     <Button
-        android:text="@string/startup"
+        android:text="@string/team"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/startup"
+        android:id="@+id/team"
         android:elevation="0dp"
-        android:onClick="startupsignup"/>
+        android:onClick="team_sign_up"/>
 
     <Button
         android:text="@string/free_agent"
@@ -20,13 +20,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/free_agent"
         android:elevation="0dp"
-        android:onClick="free_agent" />
+        android:onClick="free_agent_sign_up" />
 
     <Button
-        android:text="@string/consultant"
+        android:text="@string/coach"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/consultant"
-        android:onClick="consultantidentity"/>
+        android:id="@+id/coach"
+        android:onClick="coach_sign_up"/>
 
 </LinearLayout>

@@ -7,13 +7,13 @@
     android:background="#8F5CFF">
 
     <Button
-        android:text="Begin Scouting"
+        android:text="@string/begin_scouting"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/begin_scouting" />
 
     <TextView
-        android:text="Company Logo"
+        android:text="@string/company_logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView" />

@@ -8,9 +8,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
-        android:text="@string/edit_EmailAddress"
+        android:text="@string/email_address"
         android:ems="10"
-        android:id="@+id/edit_EmailAddress" />
+        android:id="@+id/email_address" />
 
     <EditText
         android:layout_width="match_parent"
@@ -21,9 +21,14 @@
         android:hint="Password" />
 
     <Button
-        android:text="Forgot Password?"
+        android:text="@string/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/forgot_password"
-        android:onClick="forgot_password"/>
+        android:id="@+id/login" />
+
+    <Button
+        android:text="@string/forgot_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgot_password" />
 </LinearLayout>

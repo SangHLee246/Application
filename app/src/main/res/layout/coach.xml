@@ -6,46 +6,46 @@
     android:background="#8F5CFF">
 
     <TextView
-        android:text="@string/consultant"
+        android:text="@string/coach"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/consultant"
+        android:id="@+id/coach"
         android:layout_weight="0.03" />
 
-    <EditText android:id="@+id/edit_name"
+    <EditText android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/edit_name" />
+        android:hint="@string/name" />
 
-    <EditText android:id="@+id/edit_EmailAddress"
+    <EditText android:id="@+id/email_address"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/edit_EmailAddress" />
+        android:hint="@string/email_address" />
     
-    <EditText android:id="@+id/field_dropdown"
+    <EditText android:id="@+id/category"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/field_dropdown" />
+        android:hint="@string/category" />
 
-    <EditText android:id="@+id/expertise_dropdown"
+    <EditText android:id="@+id/area_of_expertise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/expertise_dropdown" />
+        android:hint="@string/area_of_expertise" />
 
-    <EditText android:id="@+id/years_of_experience"
+    <EditText android:id="@+id/experience"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/years_of_experience" />
+        android:hint="@string/experience" />
 
     <EditText android:id="@+id/company"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/company" />
 
-    <EditText android:id="@+id/job_title"
+    <EditText android:id="@+id/current_position"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/job_title" />
+        android:hint="@string/current_position" />
 
     <EditText android:id="@+id/alma_matta"
         android:layout_width="wrap_content"
@@ -57,14 +57,14 @@
         android:layout_height="wrap_content"
         android:hint="@string/biography" />
 
-    <EditText android:id="@+id/picture_upload"
+    <EditText android:id="@+id/upload_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/picture_upload" />
+        android:hint="@string/upload_image" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_send"
+        android:text="@string/send"
         android:onClick="search_preferences"/>
 </LinearLayout>

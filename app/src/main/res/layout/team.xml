@@ -6,50 +6,50 @@
     android:background="#8F5CFF">
 
     <TextView
-        android:text="@string/startup"
+        android:text="@string/team"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/startup"
+        android:id="@+id/team"
         android:layout_weight="0.03" />
 
-    <EditText android:id="@+id/startup_name"
+    <EditText android:id="@+id/venture_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/startup_name" />
+        android:hint="@string/venture_name" />
 
-    <EditText android:id="@+id/startup_mission"
+    <EditText android:id="@+id/elevator_pitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/startup_mission" />
+        android:hint="@string/elevator_pitch" />
 
-    <EditText android:id="@+id/established"
+    <EditText android:id="@+id/date_of_establishment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/established" />
+        android:hint="@string/date_of_establishment" />
 
     <EditText android:id="@+id/position_role"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/position_role" />
+        android:hint="@string/point_of_contact" />
 
-    <EditText android:id="@+id/picture_upload"
+    <EditText android:id="@+id/upload_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/picture_upload" />
+        android:hint="@string/upload_image" />
 
-    <EditText android:id="@+id/student"
+    <EditText android:id="@+id/hyperlink_url"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/student" />
+        android:hint="@string/hyperlink_url" />
 
-    <EditText android:id="@+id/university_class"
+    <EditText android:id="@+id/university_college"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/university_class" />
+        android:hint="@string/university_college" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_send"
+        android:text="@string/send"
         android:onClick="search_preferences"/>
 </LinearLayout>
