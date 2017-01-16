@@ -4,19 +4,24 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#8F5CFF">
+    android:background="#8f5cff">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
 
     <Button
         android:text="@string/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/login"
-        android:onClick="login"/>
+        android:onClick="login"
+        style="@style/Widget.AppCompat.Button" />
 
     <Button
         android:text="@string/register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button7"
+        android:id="@+id/register"
         android:onClick="register" />
 </LinearLayout>
