@@ -59,7 +59,7 @@ public class HomeScreen extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                cardStack.swipeTopCardLeft(500);
+                cardStack.swipeTopCardLeft(100);
 
             }
         });
@@ -67,9 +67,17 @@ public class HomeScreen extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                cardStack.swipeTopCardRight(500);
+                cardStack.swipeTopCardRight(100);
             }
         });
+        Button btn3 = (Button) findViewById(R.id.button3);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               cardStack.unSwipeCard();
+            }
+        });
+
     }
 
     public void login(View view) {
