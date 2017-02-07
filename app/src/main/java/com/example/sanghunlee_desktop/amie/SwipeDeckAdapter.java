@@ -20,6 +20,7 @@ public class SwipeDeckAdapter extends BaseAdapter {
 
     public SwipeDeckAdapter(List<String> data, Context context) {
         this.data = data;
+
         this.context = context;
     }
 
@@ -46,7 +47,7 @@ public class SwipeDeckAdapter extends BaseAdapter {
         //    LayoutInflater inflater = context.getLayoutInflater();
             LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             // normally use a viewholder
-          //  v = inflater.inflate(R.layout.test_card2, parent, false);
+            v = inflater.inflate(R.layout.card, parent, false);
         }
 
         ImageView imageView = (ImageView) v.findViewById(R.id.offer_image);
@@ -64,4 +65,5 @@ public class SwipeDeckAdapter extends BaseAdapter {
         });
         return v;
     }
+
 }

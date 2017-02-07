@@ -2,20 +2,81 @@ package com.example.sanghunlee_desktop.amie;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.*;
+import java.util.*;
+import android.widget.Button;
+import android.widget.CheckBox;
+
+import com.daprlabs.aaron.swipedeck.SwipeDeck;
 
 
 public class HomeScreen extends AppCompatActivity {
+    private SwipeDeck cardStack;
+    private SwipeDeckAdapter deckAdapter;
+    private ArrayList<String> testData;
+    private CheckBox dragCheckbox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.initial_screen);
+        //Below is the swipecard code
+
+    }
+    public void swipe_deck(View view){
+        setContentView(R.layout.swipe_deck);
+        cardStack = (SwipeDeck) findViewById(R.id.swipe_deck);
+        //dragCheckbox = (CheckBox) findViewById(R.id.checkbox_drag);
+        testData = new ArrayList<>();
+        for(int x = 0; x <10; x++){
+            testData.add("Sample Bio: " + x);
+        }
+        deckAdapter = new SwipeDeckAdapter(testData,this);
+        if(cardStack != null){
+            cardStack.setAdapter(deckAdapter);
+        }
+        cardStack.setCallback(new SwipeDeck.SwipeDeckCallback() {
+            @Override
+            public void cardSwipedLeft(long stableId) {
+                Log.i("MainActivity", "card was swiped left, position in adapter: " + stableId);
+            }
+
+            @Override
+            public void cardSwipedRight(long stableId) {
+                Log.i("MainActivity", "card was swiped right, position in adapter: " + stableId);
+
+            }
+
+
+            public boolean isDragEnabled(long itemId) {
+                return dragCheckbox.isChecked();
+            }
+        });
+        cardStack.setLeftImage(R.id.left_image);
+        cardStack.setRightImage(R.id.right_image);
+        Button btn = (Button) findViewById(R.id.button);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                cardStack.swipeTopCardLeft(500);
+
+            }
+        });
+        Button btn2 = (Button) findViewById(R.id.button2);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                cardStack.swipeTopCardRight(500);
+            }
+        });
     }
 
     public void login(View view) {
         //Do something in response to button
+        //Below is the original code. This should be changed before final product.
         setContentView(R.layout.login);
+      //  setContentView(R.layout.swipe_deck);
     }
 
     public void register(View view) {
@@ -37,6 +98,8 @@ public class HomeScreen extends AppCompatActivity {
         //Do something in response to button
         setContentView(R.layout.coach);
     }
+
+
 
     public void search_preferences(View view){
         setContentView(R.layout.searchpreferences);

@@ -10,7 +10,8 @@
         android:text="@string/begin_scouting"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/begin_scouting" />
+        android:id="@+id/begin_scouting"
+        android:onClick="swipe_deck"/>
 
     <TextView
         android:text="@string/company_logo"
