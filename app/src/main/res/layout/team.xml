@@ -11,7 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/team"
-        android:layout_weight="0.03" />
+        android:layout_weight="0.03"
+        android:textSize="18sp"
+        android:textColor="@color/Pantone_Coated_2572_C" />
 
     <EditText android:id="@+id/venture_name"
         android:layout_width="wrap_content"
@@ -49,8 +51,10 @@
         android:hint="@string/university_college" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
         android:text="@string/send"
-        android:onClick="search_preferences"/>
+        android:onClick="search_preferences"
+        android:background="@drawable/background"
+        android:textColor="@color/Pantone_Coated_2572_C" />
 </LinearLayout>

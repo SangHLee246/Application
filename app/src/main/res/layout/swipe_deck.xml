@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/swipeLayout"
+    android:background="#645A95"
     android:orientation="vertical">
 
     <com.daprlabs.aaron.swipedeck.SwipeDeck
@@ -19,25 +20,28 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
         android:layout_gravity="bottom"
         android:text="swipe left"
-        />
+        android:textColor="@color/Pantone_Coated_2572_C"
+        android:background="@drawable/background" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
         android:layout_gravity="bottom|right"
         android:text="swipe right"
-        />
+        android:textColor="@color/Pantone_Coated_2572_C"
+        android:background="@drawable/background" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
         android:layout_gravity="bottom|center"
         android:text="Undo"
-        />
+        android:textColor="@color/Pantone_Coated_2572_C"
+        android:background="@drawable/background" />
 </com.daprlabs.aaron.swipedeck.layouts.SwipeFrameLayout>

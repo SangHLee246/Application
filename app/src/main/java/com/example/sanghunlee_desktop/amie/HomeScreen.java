@@ -10,7 +10,6 @@ import android.widget.CheckBox;
 
 import com.daprlabs.aaron.swipedeck.SwipeDeck;
 
-
 public class HomeScreen extends AppCompatActivity {
     private SwipeDeck cardStack;
     private SwipeDeckAdapter deckAdapter;
@@ -22,8 +21,8 @@ public class HomeScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.initial_screen);
         //Below is the swipecard code
-
     }
+
     public void swipe_deck(View view){
         setContentView(R.layout.swipe_deck);
         cardStack = (SwipeDeck) findViewById(R.id.swipe_deck);
@@ -32,10 +31,12 @@ public class HomeScreen extends AppCompatActivity {
         for(int x = 0; x <10; x++){
             testData.add("Sample Bio: " + x);
         }
+
         deckAdapter = new SwipeDeckAdapter(testData,this);
         if(cardStack != null){
             cardStack.setAdapter(deckAdapter);
         }
+
         cardStack.setCallback(new SwipeDeck.SwipeDeckCallback() {
             @Override
             public void cardSwipedLeft(long stableId) {
@@ -45,14 +46,13 @@ public class HomeScreen extends AppCompatActivity {
             @Override
             public void cardSwipedRight(long stableId) {
                 Log.i("MainActivity", "card was swiped right, position in adapter: " + stableId);
-
             }
-
 
             public boolean isDragEnabled(long itemId) {
                 return dragCheckbox.isChecked();
             }
         });
+
         cardStack.setLeftImage(R.id.left_image);
         cardStack.setRightImage(R.id.right_image);
         Button btn = (Button) findViewById(R.id.button);
@@ -77,7 +77,6 @@ public class HomeScreen extends AppCompatActivity {
                cardStack.unSwipeCard();
             }
         });
-
     }
 
     public void login(View view) {
@@ -107,8 +106,6 @@ public class HomeScreen extends AppCompatActivity {
         setContentView(R.layout.coach);
     }
 
-
-
     public void search_preferences(View view){
         setContentView(R.layout.searchpreferences);
     }
@@ -117,6 +114,10 @@ public class HomeScreen extends AppCompatActivity {
         setContentView(R.layout.main_menu);
     }
 
+    @Override
+    public void onBackPressed() {
+        setContentView(R.layout.initial_screen);
+    }
 }
 /*
 public class SwipeDeckAdapter extends BaseAdapter {

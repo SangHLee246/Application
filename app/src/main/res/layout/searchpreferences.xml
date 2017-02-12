@@ -38,8 +38,10 @@
     <Button
         android:text="@string/confirm_changes"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:id="@+id/confirm_changes"
         android:onClick="main_menu"
-        android:layout_weight="0.00" />
+        android:layout_weight="0.00"
+        android:textColor="@color/Pantone_Coated_2572_C"
+        android:background="@drawable/background" />
 </LinearLayout>

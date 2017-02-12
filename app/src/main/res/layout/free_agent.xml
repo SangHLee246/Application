@@ -10,7 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/free_agent"
-        android:layout_weight="0.00"/>
+        android:layout_weight="0.00"
+        android:textSize="18sp"
+        android:textColor="@color/Pantone_Coated_2572_C" />
 
     <EditText android:id="@+id/university_college"
         android:layout_width="wrap_content"
@@ -48,8 +50,10 @@
         android:hint="@string/upload_image" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
         android:text="@string/send"
-        android:onClick="search_preferences"/>
+        android:onClick="search_preferences"
+        android:textColor="@color/Pantone_Coated_2572_C"
+        android:background="@drawable/background" />
 </LinearLayout>
